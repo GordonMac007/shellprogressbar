@@ -4,6 +4,11 @@ using System.Threading;
 
 namespace ShellProgressBar
 {
+// Gordonmac: adding this text purely to make a minimal change to code, to learn more about github integration
+// with Visual Studio.
+// I will create commits, push them etc. Branches. Work around the tools.
+// One...
+
 	public class ChildProgressBar : ProgressBarBase, IProgressBar
 	{
 		private readonly Action _scheduleDraw;
